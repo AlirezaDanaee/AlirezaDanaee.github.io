@@ -1,17 +1,17 @@
 # Site settings
-title: A blog about lorem ipsum dolor sit amet
-description: A blog about lorem ipsum dolor sit amet
+title: Alireza Danaee
+description: Alireza Danaee - Personal Website
 # baseurl: "/particle" # the subpath of your site, e.g. /blog
 # url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
-username: Anon Developer
-user_description: Bicycle rights irony actually neutra typewriter lyft. Man bun taxidermy put a bird on it, umami yr ramps pop-up ugh bushwick chia lo-fi. Occupy bitters pour-over snackwave you probably haven't heard of them small batch. Cornhole mustache man bun letterpress echo park VHS.
-user_title: Software Developer
-email: anon@anon.com
-twitter_username: lorem_ipsum
-github_username:  lorem_ipsum
-gplus_username:  lorem_ipsum
+username: Alireza Danaee
+user_description: I received the B.Sc. and M.Sc degrees in Electrical Engineering from the University of Kurdistan, Sanandaj, in 2008, and the Shahid Rajaee Teacher Training University, Tehran, in 2013, respectively. I have been a Ph.D. student at the CETUC, Pontifical Catholic University of Rio de Janeiro since August 2018 under the supervision of {\href{https://scholar.google.com/citations?user=P0-eVQQAAAAJ&hl=en}{Prof. Rodrigo C. de Lamare}} and {\href{https://scholar.google.com/citations?user=_XSJTowAAAAJ&hl=en}{Prof. Prof. Vítor H. Nascimento}}.
+user_title: PhD Candidate
+email: danaee.alireza@gmail.com
+# twitter_username: lorem_ipsum
+github_username:  AlirezaDanaee
+#gplus_username:  lorem_ipsum
 
 # Google-analytics
 google-analytics:
