@@ -26,7 +26,7 @@
   .site-title {
     font-size: 50px;
     display: block;
-    line-height: 1;
+    line-height: 1.5;
     color: #FFF;
     @media only screen and (min-width:$cut){
       margin: 0;
@@ -34,9 +34,9 @@
     }
   }
   .site-description {
-    font-size: 20px;
+    font-size: 15px;
     display: block;
-    line-height: 1;
+    line-height: 1.5;
     color: #FFF;
     margin-top: 10px;
     @media only screen and (min-width:$cut){
