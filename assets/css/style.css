@@ -20,18 +20,15 @@ h3 {
 h1 {
   font-size: 6rem;
   line-height: 5.5rem;
-  text-transform: uppercase;
 }
 
 h2 { font-size: 3.5rem;
-text-transform: uppercase;
 }
 
 .subheading {
   font-family: 'Fredoka', serif;
   font-size: 1.35rem;
   font-weight: 600;
-  text-transform: uppercase;
 }
 
 .firstcharacter {
@@ -62,7 +59,6 @@ a:active {
 
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 600;
-  text-transform: uppercase;
 }
 
 .navbar-dark .navbar-nav .nav-link:focus, 
