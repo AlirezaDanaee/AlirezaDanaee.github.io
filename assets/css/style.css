@@ -3,6 +3,7 @@ body {
   color: #868e96;
   font-family: 'Fredoka', serif;
   padding-top: 54px;
+  text-align: justify;
 }
 
 nav { background-color: #1DBFAF; }
