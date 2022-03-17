@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #333;
+  color: #fff;
+  height: 100vh;
+  line-height: 1.6;
+  overflow: hidden;
+}
+
+canvas {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  /* CSS Smooth Scroll */
+  overflow-y: scroll; 
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+
+
+.navbar {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  width: 100%;
+  height: 8vh;
+  font-size: 2vh;
+  background: rgba(0,0,0,0.5);
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: center;
+}
+
+.navbar ul li {
+  margin: 0 2.56vh;
+  padding: 2.56vh;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #f4f4f4;
+}
+
+.navbar ul li a:hover {
+  color: skyblue;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  width: 100%;
+  height: 100vh;
+  /* Scroll Snap */
+  scroll-snap-align: center;
+}
+
+
+.pageowner h1 {
+  font-size: 10.24vh;
+  mix-blend-mode: difference;
+}
+
+.pageowner h2 {
+  font-size: 4.8vh;
+  mix-blend-mode: difference;
+}
+
+section h3 {
+  font-size: 3.84vh;
+  width: 90%;
+  color: #000;
+  text-indent: -1.28vh;
+  margin-top: 1.28vh;
+  margin-bottom: 1.28vh;
+}
+
+section#publications h3 {
+  font-size: 3.84vh;
+  color: #5AFE03;
+  margin-top: 10.24vh;
+  margin-bottom: 1.28vh;
+}
+
+section h4 {
+  font-size: 3.2vh;
+  width: 90%;
+  color: #f4f4f4;
+}
+
+section p {
+  font-size: 2.56vh;
+  width: 90%;
+  color: #f4f4f4;
+}
+
+section p b{
+  color: #9BCC01;
+}
+
+a{
+  color: #CCC001;
+}
+
+img{
+  width: 15%;
+  position: flex;
+  opacity: 0.6;
+  border-radius: 50%;
+}
+
+img:hover{
+  opacity: 0.9;
+}
+
+
+section#research {
+  background-color: #6C3483; /* #CD5C5C #008080 #6BA001 #01A088*/
+}
+
+section#publications {
+  background-color: #33475b;
+}
+
+
+.icon-bar {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.icon-bar a {
+  text-align: center;
+  color: #FFF;
+  mix-blend-mode: difference;
+  width: 8vh;
+  height: 8vh;
+  font-size: 5.12vh;
+  margin: 1.6vh;
+  border-radius: 100%;
+  border: 0.32vh solid #FFF;
+  transition: all .7s;
+}
+
+.icon-bar a:hover {
+  color: $main;
+  background: #CD5C5C;
+}
+
+.active {
+  color: $main;
+  background: #FFF;
+}
+
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 25vh;
+  color: #fff;
+  font-size: 1.28vh;
+  text-align: center;
+  position: flex;
+  z-index: 1;
+  display: flex;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+footer {
+  margin-top:auto;
+  min-height: 8vh;
+  width: 100%;
+  background-color: rgba(0,0,0,0.5);
+  color: #f4f4f4;
+  text-align: center;
+}
+
+/* next page for publications */
+/* style
+ .down {
+  color: #FFF;
+  margin-top:auto;
+  text-align: center;
+  font-size: 1.92vh;
+  cursor: pointer;
+  .icon {
+      position: absolute;
+      -webkit-transform-style: preserve-3d;
+      transform-style: preserve-3d;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      width: 16vh;
+      height: 16vh;
+      fill: #fff;
+      -webkit-animation: pulse 1.3s infinite;
+      animation: pulse 1.3s infinite;
+      &:hover {
+        color: #CD5C5C;
+      }
+      &:active {
+        color: $sec;
+      }
+  }
+} */
+/* html
+<a class="down" href="#research" data-scroll>Continue<br><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a> */
