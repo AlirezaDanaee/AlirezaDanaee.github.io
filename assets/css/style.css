@@ -116,7 +116,6 @@ section {
 	text-align: justify;
 	width: 100%;
 	height: 100vh;
-	/* Scroll Snap */
 	scroll-snap-align: center;
 }
 @media (orientation: portrait) {
@@ -348,7 +347,7 @@ img:hover{
 
 
 section#research {
-	background-color: #6C3483; /* #CD5C5C #008080 #6BA001 #01A088*/
+	background-color: #6C3483;
 }
 
 
