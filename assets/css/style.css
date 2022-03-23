@@ -192,41 +192,41 @@ section h3 {
 @media (max-aspect-ratio: 3/4) {
 	section h3 {
 		font-size: 3,84vw;
-		text-indent: -1.28vw;
-		margin-top: 1.28vw;
+		text-indent: -1.5vw;
+		margin-top: 6vw;
 		margin-bottom: 1.28vw;
   }
 }
 @media (min-aspect-ratio: 3/4) and (max-aspect-ratio: 1/1) {
 	section h3 {
 		font-size: 2vh;
-		text-indent: -0.7vh;
-		margin-top: 0.7vh;
+		text-indent: -0.85vh;
+		margin-top: 3vh;
 		margin-bottom: 0.7vh;
   }
 }
 @media (min-aspect-ratio: 1/1) and (max-aspect-ratio: 4/3) {
 	section h3 {
 		font-size: 2vw;
-		text-indent: -0.7vw;
-		margin-top: 0.7vw;
+		text-indent: -1.85vw;
+		margin-top: 3vw;
 		margin-bottom: 0.7vw;
   }
 }
 @media (min-aspect-ratio: 4/3) and (max-aspect-ratio: 16/10) {
 	section h3 {
 		font-size: 3.6vh;
-		text-indent: -1.2vh;
-		margin-top: 1.2vh;
-		margin-bottom: 1.2vh;
+		text-indent: -1.75vh;
+		margin-top: 4vh;
+		margin-bottom: 1vh;
   }
 }
 @media (min-aspect-ratio: 16/10) {
 	section h3 {
 		font-size: 3.84vh;
-		text-indent: -1.28vh;
-		margin-top: 1.28vh;
-		margin-bottom: 1.28vh;
+		text-indent: -2.25vh;
+		margin-top: 4.25vh;
+		margin-bottom: 1vh;
   }
 }
 
@@ -292,49 +292,81 @@ section h4 {
 }
 
 
-section p {
+p {
 	width: 90%;
 	color: #f4f4f4;
 }
 @media (max-aspect-ratio: 3/4) {
-	section p {
+	p {
 		font-size: 2.56vw;
   }
 }
 @media (min-aspect-ratio: 3/4) and (max-aspect-ratio: 1/1) {
-	section p {
+	p {
 		font-size: 1.6vh;
   }
 }
 @media (min-aspect-ratio: 1/1) and (max-aspect-ratio: 4/3) {
-	section p {
+	p {
 		font-size: 1.6vw;
   }
 }
 @media (min-aspect-ratio: 4/3) and (max-aspect-ratio: 16/10) {
-	section p {
+	p {
 		font-size: 2.2vh;
   }
 }
 @media (min-aspect-ratio: 16/10) {
-	section p {
+	p {
 		font-size: 2.4vh;
   }
 }
 
 
-section p b{
-	color: #9BCC01;
+p b{
+	color: #FEFE03;
+}
+
+
+.reez {
+	width: 90%;
+	color: #f4f4f4;
+}
+@media (max-aspect-ratio: 3/4) {
+	.reez {
+		font-size: 1.8vw;
+  }
+}
+@media (min-aspect-ratio: 3/4) and (max-aspect-ratio: 1/1) {
+	.reez {
+		font-size: 1vh;
+  }
+}
+@media (min-aspect-ratio: 1/1) and (max-aspect-ratio: 4/3) {
+	.reez {
+		font-size: 1vw;
+  }
+}
+@media (min-aspect-ratio: 4/3) and (max-aspect-ratio: 16/10) {
+	.reez {
+		font-size: 1.8vh;
+  }
+}
+@media (min-aspect-ratio: 16/10) {
+	.reez {
+		font-size: 1.8vh;
+  }
 }
 
 
 a{
-	color: #CCC001;
+	font-weight: bold;
+	color: #C5FEE8;
 }
 
 
 img{
-	width: 15%;
+	width: 25vh;
 	position: flex;
 	opacity: 0.6;
 	border-radius: 50%;
@@ -347,12 +379,12 @@ img:hover{
 
 
 section#research {
-	background-color: #6C3483;
+	background-color: #506655;
 }
 
 
 section#publications {
-	background-color: #33475b;
+	background-color: #535066;
 }
 
 
