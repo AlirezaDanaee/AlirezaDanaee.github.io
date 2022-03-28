@@ -22,46 +22,46 @@ let colorThemes = [
 		pFont: '#65dc98',
 	},
 	{/* theme #2 */
+		circle: '#2f404d',
+		line: '#3d898d',
+		bg: '#85ebd9',
+		shadowColor: '#2f404d',
+		pFont: '#2f404d',
+	},
+	{/* theme #3 */
 		circle: '#ff2a6d',
 		line: '#05d9e8',
 		bg: '#000000',
 		shadowColor: '#ff2a6d',
 		pFont: '#ff2a6d',
 	},
-	{/* theme #3 */
+	{/* theme #4 */
 		circle: '#f1fc04',
 		line: '#ffffff',
 		bg: '#a4018c',
 		shadowColor: '#001eff',
 		pFont: '#001eff',
 	},
-	{/* theme #4 */
+	{/* theme #5 */
 		circle: '#fe00fe',
 		line: '#000000',
 		bg: '#120458',
 		shadowColor: '#fe00fe',
 		pFont: '#fe00fe',
 	},
-	{/* theme #5 */
+	{/* theme #6 */
 		circle: '#0afe02',
 		line: '#ffffff',
 		bg: '#000000',
 		shadowColor: '#ffffff',
 		pFont: '#ffffff',
 	},
-	{/* theme #6 */
+	{/* theme #7 */
 		circle: '#000000',
 		line: '#000000',
 		bg: '#ff124f',
 		shadowColor: '#000000',
 		pFont: '#000000',
-	},
-	{/* theme #7 */
-		circle: '#2f404d',
-		line: '#3d898d',
-		bg: '#85ebd9',
-		shadowColor: '#2f404d',
-		pFont: '#2f404d',
 	},
 	{/* theme #8 */
 		circle: '#fa8072',
