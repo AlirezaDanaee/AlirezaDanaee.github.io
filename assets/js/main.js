@@ -3,9 +3,9 @@ const context = canvas.getContext('2d');
 
 let particleCount;
 if (innerWidth >= innerHeight) {
-	particleCount = parseInt(innerWidth / 20);
+	particleCount = parseInt(innerWidth / 25);
 } else {
-	particleCount = parseInt(innerHeight / 20);
+	particleCount = parseInt(innerHeight / 30);
 }
 let particleObjects = [];
 let connectorObjects = [];
@@ -57,7 +57,7 @@ let colorThemes = [
 		pFont: '#ffffff',
 	},
 	{/* theme #7 */
-		circle: '#000000',
+		circle: '##fef602',
 		line: '#000000',
 		bg: '#ff124f',
 		shadowColor: '#000000',
@@ -113,7 +113,7 @@ class Particle {
 		this.z = getRandomNum(0.5, 1);
 		this.r = getRandomNum(2, 6) * this.z;
 		this.angle = getRandomNum(1, 360) * 0.01745;
-		this.v = getRandomNum(0.5, 2);
+		this.v = getRandomNum(0.5, 1);
 	}
 
 	draw() {
@@ -137,7 +137,7 @@ class Particle {
 			} else {
 				this.angle = getRandomNum(100, 170) * 0.01745;
 			}
-			this.v = getRandomNum(0.5, 2);
+			this.v = getRandomNum(0.5, 1);
 		} else if (rand == 2) {
 			this.x = canvas.width + 10;
 			this.y = getRandomNum(0, canvas.height);
@@ -148,7 +148,7 @@ class Particle {
 			} else {
 				this.angle = getRandomNum(190, 260) * 0.01745;
 			}
-			this.v = getRandomNum(0.5, 2);
+			this.v = getRandomNum(0.5, 1);
 		} else if (rand == 3) {
 			this.x = getRandomNum(0, canvas.width);
 			this.y = canvas.height + 10;
@@ -159,7 +159,7 @@ class Particle {
 			} else {
 				this.angle = getRandomNum(190, 260) * 0.01745;
 			}
-			this.v = getRandomNum(0.5, 2);
+			this.v = getRandomNum(0.5, 1);
 		} else if (rand == 4) {
 			this.x = -10;
 			this.y = getRandomNum(0, canvas.height);
@@ -170,7 +170,7 @@ class Particle {
 			} else {
 				this.angle = getRandomNum(280, 350) * 0.01745;
 			}
-			this.v = getRandomNum(0.5, 2);
+			this.v = getRandomNum(0.5, 1);
 		}
 	}
 }
@@ -314,7 +314,7 @@ document.addEventListener("keydown", function(event) {
 					selectedTheme = 0;
 				}
 				colorSwitch();
-			}, 1000);
+			}, 2000);
 		} else {
 			clearInterval(autoChangeThemeInterval);
 		}
