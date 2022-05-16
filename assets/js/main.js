@@ -279,7 +279,7 @@ const mainLoop = (timestamp) => {
 const colorSwitch = () => {
 	document.querySelector('body').style.backgroundColor = colorThemes[selectedTheme].bg;
 	/* document.querySelector('p').style.color = colorThemes[selectedTheme].pFont; */
-	canvas.style.border = `1px solid ${colorThemes[selectedTheme].bg}`;
+	canvas.style.border = `0px solid ${colorThemes[selectedTheme].bg}`;
 }
 
 document.addEventListener('click', (event) => {
