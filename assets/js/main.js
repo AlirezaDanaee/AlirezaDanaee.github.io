@@ -5,7 +5,7 @@ let particleCount;
 if (innerWidth >= innerHeight) {
 	particleCount = parseInt(innerWidth / 25);
 } else {
-	particleCount = parseInt(innerHeight / 45);
+	particleCount = parseInt(innerHeight / 25);
 }
 let particleObjects = [];
 let connectorObjects = [];
