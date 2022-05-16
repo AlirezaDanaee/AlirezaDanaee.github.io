@@ -5,7 +5,7 @@ let particleCount;
 if (innerWidth >= innerHeight) {
 	particleCount = parseInt(innerWidth / 25);
 } else {
-	particleCount = parseInt(innerHeight / 15);
+	particleCount = parseInt(innerHeight / 45);
 }
 let particleObjects = [];
 let connectorObjects = [];
@@ -113,7 +113,7 @@ class Particle {
 		this.z = getRandomNum(0.5, 1);
 		this.r = getRandomNum(2, 6) * this.z;
 		this.angle = getRandomNum(1, 360) * 0.01745;
-		this.v = getRandomNum(0.5, 1);
+		this.v = getRandomNum(0.1, 0.5);
 	}
 
 	draw() {
@@ -137,7 +137,7 @@ class Particle {
 			} else {
 				this.angle = getRandomNum(100, 170) * 0.01745;
 			}
-			this.v = getRandomNum(0.5, 1);
+			this.v = getRandomNum(0.1, 0.5);
 		} else if (rand == 2) {
 			this.x = canvas.width + 10;
 			this.y = getRandomNum(0, canvas.height);
@@ -148,7 +148,7 @@ class Particle {
 			} else {
 				this.angle = getRandomNum(190, 260) * 0.01745;
 			}
-			this.v = getRandomNum(0.5, 1);
+			this.v = getRandomNum(0.1, 0.5);
 		} else if (rand == 3) {
 			this.x = getRandomNum(0, canvas.width);
 			this.y = canvas.height + 10;
@@ -159,7 +159,7 @@ class Particle {
 			} else {
 				this.angle = getRandomNum(190, 260) * 0.01745;
 			}
-			this.v = getRandomNum(0.5, 1);
+			this.v = getRandomNum(0.1, 0.5);
 		} else if (rand == 4) {
 			this.x = -10;
 			this.y = getRandomNum(0, canvas.height);
@@ -170,7 +170,7 @@ class Particle {
 			} else {
 				this.angle = getRandomNum(280, 350) * 0.01745;
 			}
-			this.v = getRandomNum(0.5, 1);
+			this.v = getRandomNum(0.1, 0.5);
 		}
 	}
 }
