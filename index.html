@@ -1,69 +1,132 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Alireza Danaee - Personal Website</title>
-	<link rel="stylesheet" href="assets/css/style.css">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- font-awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<!-- academicons -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <!-- style.css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">    
+    <!-- favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon_io/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon_io//favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon_io//favicon-16x16.png">
-</head>
+	
+    <title>Alireza Danaee - Personal Website</title>
+  </head>
+  <body id="page-top">
 
-<div class="container">
-	<nav class="navbar">
-		<ul>
-			<li><a href="#home">Home</a></li>
-			<li><a href="#research">Research</a></li>
-			<li><a href="#publications">Publications</a></li>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="sideNav">
+		<a class="navbar-brand js-scroll-trigger" href="#page-top">
+			<span class="d-block d-lg-none">Alireza Danaee</span>
+			<span class="d-none d-lg-block">
+			  <img class="img-fluid rounded-circle mx-auto mb-2 profile-pic" src="assets/img/prfl.jpg" alt="Profile pic of Alireza">
+			</span>
+		</a>
+		<ul class="list-inline social-icons mb-0">
+			<li class="list-inline-item mr-2">
+				<a href="mailto:danaee.alireza@gmail.com" target="_blank">
+					<i class="fa fa-envelope fa-2x" title="Email me"></i>
+				</a>
+			</li>			
+			<li class="list-inline-item mr-2">
+				<a href="https://www.linkedin.com/in/alireza-danaee-07248591/" target="_blank">
+					<i class="fa fa-linkedin fa-2x" title="My LinkedIn"></i>
+				</a>
+			</li>
+			<li class="list-inline-item mr-2">
+				<a href="https://scholar.google.com/citations?user=mcq5kZIAAAAJ&hl=en" target="_blank">
+					<i class="ai ai-google-scholar-square fa-2x" title="My Google Scholar"></i>
+				</a>
+			</li>
+			<li class="list-inline-item mr-2">
+				<a href="https://orcid.org/0000-0003-3152-3616" target="_blank">
+					<i class="ai ai-orcid fa-2x" title="My Orcid"></i>
+				</a>
+			</li>
+			<li class="list-inline-item">
+				<a href="https://github.com/AlirezaDanaee/" target="_blank">
+					<i class="fa fa-github-alt fa-2x" title="My GitHub"></i>
+				</a>
+			</li>
 		</ul>
-	</nav>
-	<section id="home">
-	<canvas>Your browser does not support the HTML5 Canvas API.</canvas>
-	<script src="assets\js\main.js"></script>
-	<script>document.addEventListener('DOMContentLoaded', (event) => {canvasInit();});</script>
-        <img src="assets\img\prfl.jpg">
-        <div class="pageowner"><h1>Alireza Danaee</h1><h2>PhD Candidate at CETUC, PUC-Rio</h2></div>
-		<div class="icon-bar">
-			<a class="tooltip" aria-label="Email me" target="_blank" href="mailto:danaee.alireza@gmail.com"><i class="icon fa fa-envelope"></i><span class="tooltiptext">Email me</span></a>
-			<a class="tooltip" aria-label="My LinkedIn" target="_blank" href="https://www.linkedin.com/in/alireza-danaee-07248591/"><i class="icon fa fa-linkedin"></i><span class="tooltiptext">My LinkedIn</span></a>
-			<a class="tooltip" aria-label="My Google Scholar" target="_blank" href="https://scholar.google.com/citations?user=mcq5kZIAAAAJ&hl=en"><i class="icon ai ai-google-scholar-square"></i><span class="tooltiptext">My Google Scholar</span></a>
-			<a class="tooltip" aria-label="My Orcid" target="_blank" href="https://orcid.org/0000-0003-3152-3616"><i class="icon ai ai-orcid"></i><span class="tooltiptext">My Orcid</span></a>
-			<a class="tooltip" aria-label="My Github" target="_blank" href="https://github.com/AlirezaDanaee/"><i class="icon fa fa-github-alt"></i><span class="tooltiptext">My Github</span></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link js-scroll-trigger" href="#about">About Me</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link js-scroll-trigger" href="#publications">Publications</a>
+				</li>
+				
+			</ul>
+		</div>
+    </nav>
+
+    <div class="container-fluid p-0">
+
+	<section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+		<div class="my-auto mx-auto">
+			<h1 class="mb-2">Alireza <span class="text-nav-color">Danaee</span></h1>
+			<div class="subheading mb-3">PhD Candidate<br>
+				Centre for Telecommunications Research (CETUC)<br>
+				Pontifical Catholic University of Rio de Janeiro (PUC-Rio)<br>
+				Gávea, Rio de Janeiro - Brazil
+			</div>
+			
+			<h4 class="mb-2"><b>Short Biography</b></h4>
+			<p class="mb-3 lead">I received the B.Sc. and M.Sc degrees in Electrical Engineering from the University of Kurdistan, Sanandaj, in 2008, and the Shahid Rajaee Teacher Training University, Tehran, in 2013, respectively. I started my Ph.D. at the Pontifical Catholic University of Rio de Janeiro in August 2018, under the supervision of <a href="https://scholar.google.com/citations?user=P0-eVQQAAAAJ&hl=en"target="_blank">Prof. Rodrigo C. de Lamare</a> and <a href="https://scholar.google.com/citations?user=_XSJTowAAAAJ&hl=en"target="_blank">Prof. Vítor H. Nascimento</a>. I am currently working on energy-efficient techniques applied to adaptive IoT networks and federated learning.</p>
+			<div class="my-auto">
+				<h3 class="mb-2"><b>Research Interests</b></h3>
+				<h3 class="mb-3 lead">Statistical Signal Processing, Distributed Optimization, Federated Learning, Deep Learning</h3>
+				
+				<h3 class="mb-2"><b>Applications</b></h3>
+				<h3 class="mb-3 lead">Adaptive Networks, Internet of Things, Wireless Sensor Networks</h3>
+				
+				<h3 class="mb-2"><b>Tools</b></h3>
+				<h3 class="mb-1 lead"><b>Programming Languages:</b> MATLAB, Python (PyCharm, Jupyter Notebook, Google Colab)</h3>
+				<h3 class="mb-1 lead"><b>Python Libraries:</b> NumPy, SciPy, Matplotlib, TensorFlow, PyTorch, pandas</h3>
+				<h3 class="mb-1 lead"><b>Documentation:</b> LaTeX (Overleaf), Microsoft Office, Microsoft Project</h3>
+			</div>
 		</div>
 	</section>
 	
-	<section id="research">
-		<h3>About Me</h3>
-		<p>I received the B.Sc. and M.Sc degrees in Electrical Engineering from the University of Kurdistan, Sanandaj, in 2008, and the Shahid Rajaee Teacher Training University, Tehran, in 2013, respectively. I started my Ph.D. at the Pontifical Catholic University of Rio de Janeiro in August 2018, under the supervision of <a href="https://scholar.google.com/citations?user=P0-eVQQAAAAJ&hl=en"target="_blank">Prof. Rodrigo C. de Lamare</a> and <a href="https://scholar.google.com/citations?user=_XSJTowAAAAJ&hl=en"target="_blank">Prof. Vítor H. Nascimento</a>. I am currently working on energy-efficient techniques applied to adaptive IoT networks and federated learning.</p>
-		<h3>Research Interests</h3>
-		<h4>Statistical Signal Processing, Distributed Optimization, Federated Learning, Deep Learning</h4>
-		<h3>Applications</h3>
-		<h4>Adaptive Networks, Internet of Things, Wireless Sensor Networks</h4>
-		<h3>Tools</h3>
-		<h4><i>Programming Languages:</i> MATLAB, Python (PyCharm, Jupyter Notebook, Google Colab)</h4>
-		<h4><i>Python Libraries:</i> NumPy, SciPy, Matplotlib, TensorFlow, PyTorch, pandas</h4>
-		<h4><i>Documentation:</i> LaTeX (Overleaf), Microsoft Office, Microsoft Project</h4>
+	<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="publications">
+	<div class="my-auto">
+		<h2 class="mb-1"><b>Selected Publications</b></h2>
+		<p class="mb-4">* <a><i class="fa fa-file-pdf-o fa-lg"></i></a> view PDF, <a><i class="ai ai-doi fa-lg"></i></a> view by DOI, <a><i class="fa fa-download fa-lg"></i></a> download source code</p>
+		<p>[9] <b>A. Danaee</b>, R. C. de Lamare, and V. H. Nascimento, “Distributed Quantization-Aware RLS Learning with Bias Compensation and Coarsely Quantized Signals,” <i>IEEE Transactions on Signal Processing</i>, 2022. <a href="https://drive.google.com/file/d/1N_GBjyRSK1A92fbSLuBJP53rQOyrvpmA/view?usp=sharing"target="_blank"><i class="fa fa-file-pdf-o fa-lg"></i></a> <a href="https://doi.org/"target="_blank"><i class="ai ai-doi fa-lg"></i></a> <a href="https://github.com/AlirezaDanaee/DQA-RLS"target="_blank"><i class="fa fa-download fa-lg"></i></a></p>
+		<p>[8] <b>A. Danaee</b>, R. C. de Lamare, and V. H. Nascimento, “Quantization-Aware Federated Learning with Coarsely Quantized Measurements,” <i>European Signal Processing Conference (EUSIPCO)</i>, 2022. <a href="https://drive.google.com/file/d/1NULdKFhlHTiQ1JT5xaFTJTlwMynOEhNR/view?usp=sharing"target="_blank"><i class="fa fa-file-pdf-o fa-lg"></i></a> <a href="https://doi.org/"target="_blank"><i class="ai ai-doi fa-lg"></i></a> <a href="https://github.com/AlirezaDanaee/QA-FedAvg-LMS"target="_blank"><i class="fa fa-download fa-lg"></i></a></p>
+		<p>[7] <b>A. Danaee</b>, R. C. de Lamare, and V. H. Nascimento, “Energy-efficient Distributed Learning with Adaptive Bias Compensation for Coarsely Quantized Signals,” <i>IEEE Statistical Signal Processing Workshop (SSP)</i>, 2021. <a href="https://drive.google.com/file/d/1ClT7IoljSzcKDK6JE7K1rEL4Ufmf1rxj/view?usp=sharing"target="_blank"><i class="fa fa-file-pdf-o fa-lg"></i></a> <a href="https://doi.org/10.1109/SSP49050.2021.9513807"target="_blank"><i class="ai ai-doi fa-lg"></i></a></p>
+		<p>[6] <b>A. Danaee</b>, R. C. de Lamare, and V. H. Nascimento, “Energy-efficient Distributed Learning with Coarsely Quantized Signals,” <i>IEEE Signal Processing Letters</i>, 2021. <a href="https://drive.google.com/file/d/1Cj4QWG-yxFHAzUaqybjlnSTzfIR3qrso/view?usp=sharing"target="_blank"><i class="fa fa-file-pdf-o fa-lg"></i></a> <a href="https://doi.org/10.1109/LSP.2021.3051522"target="_blank"><i class="ai ai-doi fa-lg"></i></a> <a href="https://github.com/AlirezaDanaee/DQA-LMS"target="_blank"><i class="fa fa-download fa-lg"></i></a></p>
+		<p>[5] <b>A. Danaee</b>, R. C. de Lamare, and V. H. Nascimento, “Energy-Efficient Distributed Recursive Least Squares Learning with Coarsely Quantized Signals,” <i>Asilomar Conference on Signals, Systems, and Computers</i>, 2020. <a href="https://drive.google.com/file/d/1CgSGUsRpFQo0tmDUY0KuRxznBPfGq_2D/view?usp=sharing"target="_blank"><i class="fa fa-file-pdf-o fa-lg"></i></a> <a href="https://doi.org/10.1109/IEEECONF51394.2020.9443394"target="_blank"><i class="ai ai-doi fa-lg"></i></a></p>
+		<p>[4] M. S. E. Abadi and <b>A. Danaee</b>, “Low Computational Complexity Family of Affine Projection Algorithms over Adaptive Distributed Incremental Networks,” <i>AEU-International Journal of Electronics and Communications </i>, 2014. <a href="https://drive.google.com/file/d/1Cdc01CY0mMHFQTq1AXB7OKRwlUPU2-6z/view?usp=sharing"target="_blank"><i class="fa fa-file-pdf-o fa-lg"></i></a> <a href="https://doi.org/10.1016/j.aeue.2013.07.004"target="_blank"><i class="ai ai-doi fa-lg"></i></a></p>
+		<p>[3] <b>A. Danaee</b> and M. S. E. Abadi, “Adaptive Distributed Incremental Networks based on the Selective Partial Update Affine Projection Algorithm,” <i>Iranian Conference on Electrical Engineering (ICEE)</i>, 2013. <a href="https://drive.google.com/file/d/1BCxb9yistdKCZMJ1FgDAkpJPc1R1EOrt/view?usp=sharing"target="_blank"><i class="fa fa-file-pdf-o fa-lg"></i></a> <a href="https://doi.org/10.1109/IranianCEE.2013.6599718"target="_blank"><i class="ai ai-doi fa-lg"></i></a></p>
+		<p>[2] M. S. E. Abadi and <b>A. Danaee</b>, “Selective Partial Update Normalized Least Mean Square Algorithms for Distributed Estimation over an Adaptive Incremental Network,” <i>Iranian Conference on Electrical Engineering (ICEE)</i>, 2012. <a href="https://drive.google.com/file/d/1BAohV2wZKHJgLquP9x5L6WPHG0YbLZ-Z/view?usp=sharing"target="_blank"><i class="fa fa-file-pdf-o fa-lg"></i></a> <a href="https://doi.org/10.1109/IranianCEE.2012.6292562"target="_blank"><i class="ai ai-doi fa-lg"></i></a></p>
+		<p>[1] M. S. E. Abadi, <b>A. Danaee</b>, and M. Seifouri, “Performance Analysis of Selective Partial Update Normalized Least Mean Squares Algorithm over an Adaptive Incremental Network,” <i>Iranian Journal Of Electrical and Computer Engineering (IJECE)</i>, 2012.	<a href="https://drive.google.com/file/d/1Cc9CVaY92P5jWwRoUDdmnO8351ohEsbS/view?usp=sharing"target="_blank"><i class="fa fa-file-pdf-o fa-lg"></i></a></p>
+	</div>
 	</section>
 	
-	<section id="publications">
-		<h3>Selected Publications</h3>
-		<p class="reez">* <a><i class="fa fa-file-pdf-o fa-lg"></i></a> view PDF, <a><i class="ai ai-doi fa-lg"></i></a> view by DOI, <a><i class="ai ai-scopus fa-lg"></i></a> view on Scopus, <a><i class="fa fa-download fa-lg"></i></a> download code</p>
-		<p>[7] <b>A. Danaee</b>, R. C. de Lamare, and V. H. Nascimento, “Energy-Efficient Distributed Learning with Adaptive Bias Compensation for Coarsely Quantized Signals,” in <i>2021 IEEE Statistical Signal Processing Workshop (SSP)</i>, 2021. <a href="assets\pdf\Adaptive_DQA_LMS_SSP2021.pdf"target="_blank"><i class="fa fa-file-pdf-o fa-lg"></i></a> <a href="https://doi.org/10.1109/SSP49050.2021.9513807"target="_blank"><i class="ai ai-doi fa-lg"></i></a> <a href="https://www.scopus.com/record/display.uri?eid=2-s2.0-85113431536&origin=resultslist&sort=plf-f"target="_blank"><i class="ai ai-scopus fa-lg"></i></a></p>
-		<p>[6] <b>A. Danaee</b>, R. C. de Lamare, and V. H. Nascimento, “Energy-efficient distributed learning with coarsely quantized signals,” <i>IEEE Signal Processing Letters</i>, 2021. <a href="assets\pdf\DQA_LMS_IEEE_SPL2021.pdf"target="_blank"><i class="fa fa-file-pdf-o fa-lg"></i></a> <a href="https://doi.org/10.1109/LSP.2021.3051522"target="_blank"><i class="ai ai-doi fa-lg"></i></a> <a href="https://www.scopus.com/record/display.uri?eid=2-s2.0-85099602020&origin=resultslist&sort=plf-f"target="_blank"><i class="ai ai-scopus fa-lg"></i></a></p>
-		<p>[5] <b>A. Danaee</b>, R. C. de Lamare, and V. H. Nascimento, “Energy-Efficient Distributed Recursive Least Squares Learning with Coarsely Quantized Signals,” in <i>2020 54th Asilomar Conference on Signals, Systems, and Computers</i>, 2020. <a href="assets\pdf\DQA_RLS_Asilomar2020.pdf"target="_blank"><i class="fa fa-file-pdf-o fa-lg"></i></a> <a href="https://doi.org/10.1109/IEEECONF51394.2020.9443394"target="_blank"><i class="ai ai-doi fa-lg"></i></a> <a href="https://www.scopus.com/record/display.uri?eid=2-s2.0-85107734634&origin=resultslist&sort=plf-f"target="_blank"><i class="ai ai-scopus fa-lg"></i></a></p>
-		<p>[4] M. S. E. Abadi and <b>A. Danaee</b>, “Low computational complexity family of affine projection algorithms over adaptive distributed incremental networks,” <i>AEU-International Journal of Electronics and Communications </i>, 2014. <a href="assets\pdf\LC-dAPA-AEU2014.pdf"target="_blank"><i class="fa fa-file-pdf-o fa-lg"></i></a> <a href="https://doi.org/10.1016/j.aeue.2013.07.004"target="_blank"><i class="ai ai-doi fa-lg"></i></a> <a href="https://www.scopus.com/record/display.uri?eid=2-s2.0-84891738368&origin=resultslist&sort=plf-f"target="_blank"><i class="ai ai-scopus fa-lg"></i></a></p>
-		<p>[3] <b>A. Danaee</b> and M. S. E. Abadi, “Adaptive distributed incremental networks based on the selective partial update affine projection algorithm,” in <i>2013 21st Iranian Conference on Electrical Engineering (ICEE)</i>, 2013. <a href="assets\pdf\dSPU-APA_ICEE2013.pdf"target="_blank"><i class="fa fa-file-pdf-o fa-lg"></i></a> <a href="https://doi.org/10.1109/IranianCEE.2013.6599718"target="_blank"><i class="ai ai-doi fa-lg"></i></a> <a href="https://www.scopus.com/record/display.uri?eid=2-s2.0-84886903898&origin=resultslist&sort=plf-f"target="_blank"><i class="ai ai-scopus fa-lg"></i></a></p>
-		<p>[2] M. S. E. Abadi and <b>A. Danaee</b>, “Selective partial update normalized least mean square algorithms for distributed estimation over an adaptive incremental network,” in <i>20th Iranian Conference on Electrical Engineering (ICEE2012)</i>, 2012. <a href="assets\pdf\dSPU-NLMS_ICEE2012.pdf"target="_blank"><i class="fa fa-file-pdf-o fa-lg"></i></a> <a href="https://doi.org/10.1109/IranianCEE.2012.6292562"target="_blank"><i class="ai ai-doi fa-lg"></i></a> <a href="https://www.scopus.com/record/display.uri?eid=2-s2.0-84867366852&origin=resultslist&sort=plf-f"target="_blank"><i class="ai ai-scopus fa-lg"></i></a></p>
-		<p>[1] M. S. E. Abadi, <b>A. Danaee</b>, and M. Seifouri, “Performance Analysis of Selective Partial Update Normalized Least Mean Squares Algorithm over an Adaptive Incremental Network,” <i>Iranian Journal Of Electrical And Computer Engineering (IJECE)</i>, 2012.	<a href="assets\pdf\PA-dSPU-NLMS-IJECE2012.pdf"target="_blank"><i class="fa fa-file-pdf-o fa-lg"></i></a> <a  href="https://www.scopus.com/record/display.uri?eid=2-s2.0-84882412648&origin=resultslist&sort=plf-f"target="_blank"><i class="ai ai-scopus fa-lg"></i></a></p>
-		<footer>
-			<p>&copy; Alireza Danaee</p>
-			<p class="reez">CETUC, PUC-Rio, Rua Marquês de São Vicente, 225, Gávea, Rio de Janeiro, RJ - Brasil, CEP: 22451-900</p>
-			<p class="reez"><span class="love">❤</span> Built with Media Query, Particles JS and Smooth Scroll-Snap <span class="love">❤</span></p>
-		</footer>
-	</section>
-
-</div>
+	<footer class="mt-auto">
+		<p class="mb-0">&copy; Alireza Danaee <br>
+		<span class="love">❤</span> Built with Bootstrap <span class="love">❤</span></p>
+	</footer>
+    </div>
+	
+    <!-- jQuery, Popper.js, Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- jquery-easing -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <!-- script.js -->
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
