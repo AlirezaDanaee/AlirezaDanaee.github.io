@@ -3,9 +3,9 @@ const context = canvas.getContext('2d');
 
 let particleCount;
 if (innerWidth >= innerHeight) {
-	particleCount = parseInt(innerWidth / 25);
+	particleCount = parseInt(innerWidth / 35);
 } else {
-	particleCount = parseInt(innerHeight / 35);
+	particleCount = parseInt(innerHeight / 45);
 }
 let particleObjects = [];
 let connectorObjects = [];
