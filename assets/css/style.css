@@ -188,12 +188,12 @@ section {
 
 
 section h3 {
-	width: 90%;
+	width: 80%;
 	color: #000;
 }
 @media (max-aspect-ratio: 3/4) {
 	section h3 {
-		font-size: 3,84vw;
+		font-size: 2,84vw;
 		text-indent: -1.5vw;
 		margin-top: 6vw;
 		margin-bottom: 1.28vw;
@@ -201,7 +201,7 @@ section h3 {
 }
 @media (min-aspect-ratio: 3/4) and (max-aspect-ratio: 1/1) {
 	section h3 {
-		font-size: 2vh;
+		font-size: 1.6vh;
 		text-indent: -0.85vh;
 		margin-top: 3vh;
 		margin-bottom: 0.7vh;
@@ -209,7 +209,7 @@ section h3 {
 }
 @media (min-aspect-ratio: 1/1) and (max-aspect-ratio: 4/3) {
 	section h3 {
-		font-size: 2vw;
+		font-size: 1.6vw;
 		text-indent: -1.85vw;
 		margin-top: 3vw;
 		margin-bottom: 0.7vw;
@@ -217,7 +217,7 @@ section h3 {
 }
 @media (min-aspect-ratio: 4/3) and (max-aspect-ratio: 16/10) {
 	section h3 {
-		font-size: 3.6vh;
+		font-size: 2.6vh;
 		text-indent: -1.75vh;
 		margin-top: 4vh;
 		margin-bottom: 1vh;
@@ -225,7 +225,7 @@ section h3 {
 }
 @media (min-aspect-ratio: 16/10) {
 	section h3 {
-		font-size: 3.84vh;
+		font-size: 2.84vh;
 		text-indent: -2.25vh;
 		margin-top: 4.25vh;
 		margin-bottom: 1vh;
@@ -243,12 +243,12 @@ section#publications h3 {
 }
 @media (min-aspect-ratio: 3/4) and (max-aspect-ratio: 1/1) {
 	section#publications h3 {
-		margin-top: 5.4vh;
+		margin-top: 6.4vh;
   }
 }
 @media (min-aspect-ratio: 1/1) and (max-aspect-ratio: 4/3) {
 	section#publications h3 {
-		margin-top: 5.4vw;
+		margin-top: 6.4vw;
   }
 }
 @media (min-aspect-ratio: 4/3) and (max-aspect-ratio: 16/10) {
@@ -264,63 +264,63 @@ section#publications h3 {
 
 
 section h4 {
-	width: 90%;
+	width: 80%;
 	color: #f4f4f4;
 }
 @media (max-aspect-ratio: 3/4) {
 	section h4 {
-		font-size: 3.2vw;
+		font-size: 2.2vw;
   }
 }
 @media (min-aspect-ratio: 3/4) and (max-aspect-ratio: 1/1) {
 	section h4 {
-		font-size: 1.6vh;
+		font-size: 1.2vh;
   }
 }
 @media (min-aspect-ratio: 1/1) and (max-aspect-ratio: 4/3) {
 	section h4 {
-		font-size: 1.6vw;
+		font-size: 1.2vw;
   }
 }
 @media (min-aspect-ratio: 4/3) and (max-aspect-ratio: 16/10) {
 	section h4 {
-		font-size: 2.8vh;
+		font-size: 2vh;
   }
 }
 @media (min-aspect-ratio: 16/10) {
 	section h4 {
-		font-size: 3.2vh;
+		font-size: 2.2vh;
   }
 }
 
 
 p {
-	width: 90%;
+	width: 80%;
 	color: #f4f4f4;
 }
 @media (max-aspect-ratio: 3/4) {
 	p {
-		font-size: 2.56vw;
+		font-size: 2vw;
   }
 }
 @media (min-aspect-ratio: 3/4) and (max-aspect-ratio: 1/1) {
 	p {
-		font-size: 1.6vh;
+		font-size: 1.1vh;
   }
 }
 @media (min-aspect-ratio: 1/1) and (max-aspect-ratio: 4/3) {
 	p {
-		font-size: 1.6vw;
+		font-size: 1.1vw;
   }
 }
 @media (min-aspect-ratio: 4/3) and (max-aspect-ratio: 16/10) {
 	p {
-		font-size: 2.2vh;
+		font-size: 2vh;
   }
 }
 @media (min-aspect-ratio: 16/10) {
 	p {
-		font-size: 2.4vh;
+		font-size: 2vh;
   }
 }
 
@@ -331,32 +331,32 @@ p b{
 
 
 .reez {
-	width: 90%;
+	width: 80%;
 	color: #f4f4f4;
 }
 @media (max-aspect-ratio: 3/4) {
 	.reez {
-		font-size: 1.8vw;
+		font-size: 1.2vw;
   }
 }
 @media (min-aspect-ratio: 3/4) and (max-aspect-ratio: 1/1) {
 	.reez {
-		font-size: 1vh;
+		font-size: 0.8vh;
   }
 }
 @media (min-aspect-ratio: 1/1) and (max-aspect-ratio: 4/3) {
 	.reez {
-		font-size: 1vw;
+		font-size: 0.8vw;
   }
 }
 @media (min-aspect-ratio: 4/3) and (max-aspect-ratio: 16/10) {
 	.reez {
-		font-size: 1.8vh;
+		font-size: 1.2vh;
   }
 }
 @media (min-aspect-ratio: 16/10) {
 	.reez {
-		font-size: 1.8vh;
+		font-size: 1.2vh;
   }
 }
 
@@ -370,7 +370,7 @@ a{
 img{
 	width: 40vh;
 	position: flex;
-	opacity: 0.6;
+	opacity: 0.7;
 	border-radius: 50%;
 }
 
@@ -498,6 +498,12 @@ section#publications {
 		width: 40vh;
 		font-size: 3vh;
   }
+}
+
+
+.tooltip:hover .tooltiptext {
+	visibility: visible;
+	opacity: 1;
 }
 
 
