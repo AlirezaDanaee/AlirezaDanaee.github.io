@@ -300,27 +300,27 @@ p {
 }
 @media (max-aspect-ratio: 3/4) {
 	p {
-		font-size: 2vw;
+		font-size: 2.2vw;
   }
 }
 @media (min-aspect-ratio: 3/4) and (max-aspect-ratio: 1/1) {
 	p {
-		font-size: 1.1vh;
+		font-size: 1.8vh;
   }
 }
 @media (min-aspect-ratio: 1/1) and (max-aspect-ratio: 4/3) {
 	p {
-		font-size: 1.1vw;
+		font-size: 1.8vw;
   }
 }
 @media (min-aspect-ratio: 4/3) and (max-aspect-ratio: 16/10) {
 	p {
-		font-size: 2vh;
+		font-size: 2.2vh;
   }
 }
 @media (min-aspect-ratio: 16/10) {
 	p {
-		font-size: 2vh;
+		font-size: 2.2vh;
   }
 }
 
@@ -336,27 +336,27 @@ p b{
 }
 @media (max-aspect-ratio: 3/4) {
 	.reez {
-		font-size: 1.2vw;
+		font-size: 1.6vw;
   }
 }
 @media (min-aspect-ratio: 3/4) and (max-aspect-ratio: 1/1) {
 	.reez {
-		font-size: 0.8vh;
+		font-size: 1vh;
   }
 }
 @media (min-aspect-ratio: 1/1) and (max-aspect-ratio: 4/3) {
 	.reez {
-		font-size: 0.8vw;
+		font-size: 1vw;
   }
 }
 @media (min-aspect-ratio: 4/3) and (max-aspect-ratio: 16/10) {
 	.reez {
-		font-size: 1.2vh;
+		font-size: 1.6vh;
   }
 }
 @media (min-aspect-ratio: 16/10) {
 	.reez {
-		font-size: 1.2vh;
+		font-size: 1.6vh;
   }
 }
 
